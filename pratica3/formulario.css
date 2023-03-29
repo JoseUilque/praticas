@@ -45,6 +45,10 @@ div {
     margin-bottom: 15px;
     
 }
+textarea {
+    background-color: white;
+    color: white;
+}
 #botao {
     background-color: green;
     width: 98%;
