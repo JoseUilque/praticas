@@ -9,7 +9,7 @@
 
 body {
     background-image: linear-gradient(to right, blue, aqua);
-    width: 96vw;
+    width: 97vw;
     height: 100vh;
    
 }
@@ -47,7 +47,7 @@ div {
 }
 textarea {
     background-color: white;
-    color: white;
+    color: black;
 }
 #botao {
     background-color: green;
