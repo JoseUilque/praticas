@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+   <header>
+    <h1>Preencha o Formulário</h1>
+    <p>Não esqueça de responder todas as questões</p>
+   </header>
+   <form>
+    <div>
+        <label for="inome" class="label">Nome</label> <br>
+        <input type="text" name="nome" id="inome" class="caixaiugual" placeholder="Digite seu nome...">
+    </div>
+    <div>
+        <label for="iemail">Email</label> <br>
+        <input type="email" name="email" id="iemail" class="caixaiugual" placeholder="Digite seu email..."> 
+    </div>
+    <div>
+        <label for="idade">Idade</label> <br>
+        <input type="number" name="dade" id="idade" class="caixaiugual" placeholder="digite sua idade...">
+    </div>
+    <div>
+        <label for="iprofissao">Qual sua profissão</label> <br></br>
+        <select name="profissao" id="iprofissao" class="caixaiugual">
+            <optgroup label="Escolha uma Profissão" selected> 
+                <option value="Estudante">Estudante</option>
+                <option value="Maquineiro">Maquineiro</option>
+                <option value="Diarista">Diarista</option>
+                <option value="Caseiro">Caseiro</option>
+                <option value="Dev">Desenvolvedor</option>
+            </optgroup>
+        </select>
+    </div>
+    <div>
+        Escolha sua linguagem de programação preferida <br>
+        <input type="radio" name="linguagem" id="PHP">
+        <label for="PHP">PHP</label> <br>
+        <input type="radio" name="linguagem" id="JS">
+        <label for="JS">JavaScript</label> <br>
+        <input type="radio" name="linguagem" id="Phyton">
+        <label for="Phyton">Phyton</label> <br>
+        <input type="radio" name="linguagem" id="outra">
+        <label for="outra">Outra</label>
+    </div>
+    <div>
+        <label for="pesquisa">Qual linguagem você menos gosta?</label> <br>
+        <select name="pesquisa" id="ipesquisa" class="caixaiugual">
+            <optgroup label="Escolha uma opção">
+                <option value="Js">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+                <option value="Outra">Outra</option>
+            </optgroup>
+        </select>
+    </div>
+    <div>
+        Qual linguagem você ainda não conheceu ? <br>
+        <input type="checkbox" name="C#" id="iC#">
+        <label for="iC#">C#</label> <br>
+
+        <input type="checkbox" name="js" id="iJS">
+        <label for="iJS">JavaScript</label>  <br>
+
+        <input type="checkbox" name="java" id="ijava">
+        <label for="ijava">Java</label> <br>
+
+        <input type="checkbox" name="phyton" id="iphyton">
+        <label for="iphyton">Phyton</label> <br>
+
+        <input type="checkbox" name="php" id="iphp">
+        <label for="iphp">PHP</label> <br>
+
+        <input type="checkbox" name="node" id="inode">
+        <label for="inode">Node.js</label> <br>
+
+        <input type="checkbox" name="react" id="ireact">
+        <label for="ireact">React</label> <br>
+
+        <input type="checkbox" name="type" id="itype">
+        <label for="itype">TypeScript</label> <br>
+
+        <input type="checkbox" name="suss" id="isuss">
+        <label for="isuss">SUSS</label>
+    </div>
+    <div>
+        <label for="sugestao">Deixe sua sugestão</label><br>
+        <textarea name="areasugestao" id="sugestao" cols="58" rows="10" style="width: 100%;"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Enviar" id="botao">
+    </div>
+   </form>
+</body>
+</html>
