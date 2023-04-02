@@ -32,6 +32,9 @@ main {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.654);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease; 
     
 }
 #imagem {
@@ -49,4 +52,6 @@ main {
     display: block;
     padding: 10px;
 }
+
+
 
