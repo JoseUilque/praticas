@@ -27,7 +27,7 @@ main {
     left: 50%;
     background-color: white;
     width: 85vw;
-    height: 500px;
+    height: 700px;
     transform: translate(-50%, -50%);
     border-radius: 20px;
     overflow: hidden;
