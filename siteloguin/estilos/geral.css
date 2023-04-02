@@ -28,14 +28,14 @@ main {
     background-color: white;
     width: 85vw;
     height: 700px;
-    transform: translate(-50%, -50%);
+    
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.654);
 
     transition: width .3s, heigth .3s;
     transition-timing-function: ease; 
-    
+    transform: translate(-50%, -50%);
 }
 #imagem {
     
@@ -115,9 +115,10 @@ p {
     background-color: #49a09d;
 }
 #key, #mail { 
-    transform: translateY(6px);
     padding-left: 10px;
     color: white;
+
+    transform: translateY(6px);
 }
 label {
     display: none;
