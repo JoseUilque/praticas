@@ -52,6 +52,76 @@ main {
     display: block;
     padding: 10px;
 }
+h1 {
+    text-align: center;
+    margin-bottom: 10px;    
+}
+p {
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#senha {
+    background-color: var(--cor2);
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    align-items: center;
+}
+#email {
+    background-color: var(--cor2);
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+#seuemail, #suasenha {
+    width: 87%;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+}
+
+#submeter {
+    height: 40px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#submeter:hover {
+    background-color: #2b605f;
+}
+.botao {
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 1em;
+    background-color: white;
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+
+}
+.botao:hover {
+    background-color: #49a09d;
+}
+#key, #mail { 
+    transform: translateY(6px);
+    padding-left: 10px;
+    color: white;
+}
+label {
+    display: none;
+}
 
 
 
