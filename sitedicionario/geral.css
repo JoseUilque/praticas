@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* Fontes */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor_header: #FFB266;
+    --cor_body: #F8F8F7;
+
+    /* FONTES */
+
+    --fonte_roboto: 'Roboto', sans-serif;
+    --fonte_barlow: 'Barlow', sans-serif;
+    --fonte_gergia: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background-color: #ffff;
+    width: 96vw;
+}
+
+header {
+    background-color: var(--cor_header);
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 35%;
+    padding: 10px 0px; 
+}
+
+#div_inpute_lupa {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+input {
+    width: 200px;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+}
+
+#lupa {
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+
+    transform: translate(-40px, 3.3px);
+}
+
+nav {
+    display: none;
+}
+
+main {
+    max-width: 700px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: var(--fonte_barlow);
+}
+
+#redes_sociais1 > a > img {
+    width: 5.2%;
+}
+
+.paragrafo_unico {
+    font-family: var(--fonte_roboto);
+    font-size: 13px;
+    color: #757575;
+}
+
+.div_paragrafos {
+    border-bottom: 1px solid #baaf9e7b;
+    width: 100%;
+}
+
+h2 {
+    font-family: var(--fonte_barlow);
+    font-size: 17px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+
+span {
+    padding: 2px 9px;
+    background-color: #BAAF9E;
+    color: white;
+    font-family: var(--fonte_barlow);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.paragrafo_ancorado {
+    font-family: var(--fonte_gergia);
+    font-size: 20px;
+
+}
+
+.div_paragrafos > p > a {
+    color: #595959;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px dashed #BAAF9E;
+
+}
+
+
+
+
+
+
+    
+
+
