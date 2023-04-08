@@ -125,6 +125,64 @@ span {
 
 }
 
+#ultimo_paragrafo{
+    font-family: var(--fonte_roboto);
+    font-size: 14px;
+    color: #757575;
+}
+
+#spanh2, #p_inline {
+    display: inline-block;
+}
+
+#p_inline {
+    font-size: 18px;
+    font-family: var(--fonte_barlow);
+    color: #333333;
+    font-weight: bolder;
+}
+
+#p_textarea {
+    font-family: var(--fonte_roboto);
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    background-color: #baaf9e0d;
+    border-radius: 10px;
+    border: 1px solid #BAAF9E;
+
+}
+
+#p_textarea2 {
+    color: #BAAF9E;
+    font-size: 13px;
+    text-align: right;
+}
+
+#input_reescrever {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 7px;
+    box-shadow: none;
+    font-weight: bolder;
+    font-family: var(--fonte_barlow);
+    font-size: 1.2em;
+    color: #33333362;
+    background-color: #75757536;
+    margin-top: 10px;
+}
+
+#p_direitos {
+    color: #757575;
+    font-family: var(--fonte_roboto);
+    font-size: 13px;
+}
+
 
 
 
