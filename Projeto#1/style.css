@@ -212,8 +212,8 @@ footer p {
     }
     
     .sobre {
-        max-width: 250px;
-        height: 186px;
+        max-width: 90%;
+        height: 150px;
         background-color: #212343b1;
         color: white;
         padding: 10px;
