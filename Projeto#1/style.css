@@ -37,8 +37,6 @@ header {
     
 }
 
-
-
 .sobre {
    max-width: 549px;
     height: 270px;
@@ -63,7 +61,7 @@ ul li {
 }
 
 form {
-    width: 400px;
+    max-width: 400px;
     height: calc(100% + 40px);
     background-color: #fff;
     float: right;
@@ -169,11 +167,14 @@ button:hover {
     margin: auto;
 }
 
+#center h1 {
+    margin-bottom: 20px;
+}
+
 .mercado {
     max-width: 300px;
     display: inline-block;
     margin: 130px 50px;
-   
 }
 
 .mercado p {
@@ -195,6 +196,84 @@ footer p {
     margin: 10px 0;
     color: #bbb;
     font-size: 14px;
+}
+
+
+@media screen and (max-width: 511px) {
+    
+    .banner {
+        height: 610px;
+    }
+
+    #center {
+        max-width: 1280px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    
+    .sobre {
+        max-width: 250px;
+        height: 186px;
+        background-color: #212343b1;
+        color: white;
+        padding: 10px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    
+    .sobre ul {
+        margin-top: 0px;
+    }
+    
+    ul li {
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+    
+    .sobre, form {
+        display: inline-block;
+    }
+
+    form {
+        max-width: 250px;
+        height: calc(350px + 40px);
+        float: none;
+        border: 8px solid #cccccc90; 
+    }
+    
+    form h1 {
+        font-size: 17px;
+    }
+    
+    .input_container {
+        margin-top: 10px;
+    }
+    
+    .input_container label {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .input_container input {
+        border: 1px solid #ccc;
+        height: 30px;
+        font-size: 14px;
+    } 
+    
+    .camp_obrigatorio {
+        margin: 13px 0;
+        font-size: 15px;
+    }
+    
+    button {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 90%;
+        height: 20px;
+    } 
+    
 }
 
 
