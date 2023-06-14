@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 20000px;
+}
+
+header {
+    width: 100%;
+    padding: 20px 2%;
+}
+
+.center {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+main {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.container-mosaico {
+    width: 100%;
+    display: flex;
+}
+
+.colum-mosaic {
+    width: calc(100% / 6);
+
+}
+
+.img1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(imgaes-dentista/imagem1.jpg);
+    border: 2px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicos {
+    width: 100%;
+    position: relative;
+    top: -10px;
+}
+
+.servicos .center {
+    max-width: 800px;
+}
+
+.servicos .flex-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-servicos .serv1:nth-of-type(1) {
+    width: 90%;
+    max-width: 350px;
+    padding: 40px 2% 0px 2%;
+    background-color: #576975;
+}
+
+.flex-servicos .serv1:nth-of-type(2) {
+    width: 94%;
+    max-width: 380px;
+    padding: 50px 2%;
+    background-color: #688293;
+}
+
+.flex-servicos .serv1:nth-of-type(3) {
+    width: 90%;
+    max-width: 350px;
+    padding: 40px 2% 0px 2%;
+    background-color: #576975;
+}
+
+.serv1 h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.serv1 p {
+    color: white;
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.perfil {
+    width: 100%;
+}
+
+.perfil .center {
+    max-width: 800px;   
+}
+
+.perfil .flex-perfil {
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} 
+
+.perfil .img-perfil {
+    width: 100%;
+}
+
+.img-perfil img {
+    width: 80%;
+    max-width: 400px;
+    height: 480px;
+    
+}
+
+.perfil .sobre-mim {
+    padding: 0px 27px;
+    text-align: justify;
+    display: inline-block;
+    
+}
+
+.sobre-mim h1 {
+    color: #688293;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.sobre-mim p {
+    color: #4b4b4b;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.container-videos {
+    width: 100%;
+}
+
+.container-videos .flex-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-videos .video {
+    width: 100%;
+    padding-top: 56.5%;
+    position: relative; 
+    margin-bottom: 15px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-videos .video:nth-of-type(1) {
+    margin-top: 50px;
+}
+
+
+
+
+.flex-servicos .serv1:nth-of-type(1) img, .serv1:nth-of-type(3) img{
+    margin-top: 10px;
+    margin-bottom: 5px;
+} 
+
+.container-tratamentos {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.container-tratamentos .center {
+    max-width: 1400px;
+}
+
+.container-tratamentos .flex-tratamentos {
+    width: 100%;
+    display: flex;
+}
+
+.flex-tratamentos .colum-tratamentos {
+    width: calc(100% / 3);
+    margin-top: 70px;
+}
+
+.flex-tratamentos .text-tratamentos {
+    width: 100%;
+    padding: 20px;
+    word-wrap: break-word;
+} 
+
+.text-tratamentos h2 {
+    font-size: 18px;
+    color: #737373;
+}
+
+.text-tratamentos p {
+    padding: 10px 0;
+    font-size: 13px;
+    color: #b4b4b4;
+}
+
+.title-tratamentos h2 {
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container-depoimentos .center {
+    text-align: center;
+}
+
+.text-depoimentos {
+    text-align: center;
+    max-width: 400px;
+    padding: 40px 0;
+    display: inline-block;
+}
+
+.text-depoimentos h2 {  
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text-depoimentos p {
+    margin-top: 40px;
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.img-depoimentos {
+    margin-top: 20px;
+}
+
+.m--depoimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-depoimentos p {
+    margin-left: 5px;
+    font-size: 13px;
+    color: #b4b4b4;
+    position: relative;
+    top: -20px;
+}
+
+
+@media screen and (min-width: 769px) {
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .nav-desktop ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav-desktop ul li {
+        padding: 0px 23px;
+        font-size: 14px;
+        color: #b4b4b4;
+        
+    }
+
+    .img1 {
+        border: 5px solid white;
+    }
+
+    .servicos {
+        top: -30px;
+    }
+
+    .servicos .flex-servicos {
+        flex-direction: row;
+    }
+
+    .flex-servicos .serv1:nth-of-type(1) {
+        padding: 50px 2% 0px 2%;
+    }
+
+    .flex-servicos .serv1:nth-of-type(2) {
+        padding: 60px 2% 80px 2%;
+    }
+
+    .flex-servicos .serv1:nth-of-type(3) {
+        padding: 50px 2% 0px 2%;
+    }
+
+    .perfil .flex-perfil {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .img-perfil img{
+        width: 100%;
+        height: 490px;
+    }
+
+    .perfil .sobre-mim {
+        width: 60%;
+        padding: 0 30px;
+    }
+
+    .perfil .flex-perfil {
+        text-align: start;
+    }
+
+    .perfil .img-perfil {
+        width: 40%;
+    }
+
+    .container-videos .video {
+        width: 90%;
+        padding-top: 56.9%;
+        position: relative; 
+        margin: 0px auto 10px auto;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .container-videos .flex-video {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .container-videos .video {
+        width: calc(100% / 3);
+        padding-top: 18.5%;
+        margin-top: 50px;
+    }
+
+    
+}
