@@ -7,10 +7,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    height: 20000px;
-}
-
 header {
     width: 100%;
     padding: 20px 2%;
@@ -33,7 +29,6 @@ header {
 
 main {
     width: 100%;
-    padding: 0 2%;
 }
 
 .container-mosaico {
@@ -183,9 +178,6 @@ main {
     margin-top: 50px;
 }
 
-
-
-
 .flex-servicos .serv1:nth-of-type(1) img, .serv1:nth-of-type(3) img{
     margin-top: 10px;
     margin-bottom: 5px;
@@ -274,6 +266,145 @@ main {
     top: -20px;
 }
 
+.container-social {
+    width: 100%;
+}
+
+.container-social .redes-sociais {
+    text-align: center;
+    background-color: #98a5ae;
+    padding: 40px 0;
+}
+
+.container-social .redes-sociais:last-child {
+    background-color: #576975;
+}
+
+.container-social p {
+    line-height: 23px;
+    color: white;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.container-img-social {
+    background-color: #576975;
+}
+
+.container-img-social .flex-sociais {
+    width: 100%;
+    display: flex;
+}
+
+.flex-sociais .img-social {
+    width: calc(100% / 3);
+    padding-top: calc(100% / 3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid white;
+}
+
+.flex-sociais .img-social:nth-of-type(1n+4) {
+    display: none;
+}
+
+.container-contato {
+    width: 100%;
+    padding: 60px 2%;
+
+}
+
+.container-contato h2 {
+    text-align: center;
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container-contato form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.container-contato form label {
+    display: block;
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.container-contato form input {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.flex-contato {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.container-email, .container-telefone {
+    width: calc(50% - 10px);
+}
+
+.container-contato form textarea {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    height: 121px;
+    resize: none;
+    border: 1px solid #dadada;
+}
+
+.mensagem-contato {
+    margin-top: 10px;
+}
+
+.container-contato form .button {
+    text-align: center;
+}
+
+.container-contato form input[type=submit] {
+    width: 100px;
+    display: inline-block;
+    height: 35px;
+    border: 0;
+    background: #688293;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    padding: 40px 2%;
+    background-color: #688293;
+}
+
+footer .center .flex-footer {
+    text-align: center;
+    color: white;
+}
+
+
+footer .flex-footer div {
+    padding: 30px 0;
+}
+
+footer .flex-footer h3 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+footer .flex-footer p {
+    color: white;
+    font-size: 14px;
+}
 
 @media screen and (min-width: 769px) {
     .nav-mobile {
@@ -352,6 +483,27 @@ main {
         margin: 0px auto 10px auto;
     }
 
+    .flex-sociais .img-social {
+        width: calc(100% / 6);
+        padding-top: calc(100% / 6);
+        background-color: aqua;
+        border: 3px solid white;
+    }
+
+    .flex-sociais .img-social:nth-of-type(1n+4) {
+        display: block;
+    }
+
+    .flex-sociais .img-social:nth-of-type(1n+7) {
+        display: none;
+    }
+
+    footer .center .flex-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -366,5 +518,14 @@ main {
         margin-top: 50px;
     }
 
-    
+    .flex-sociais .img-social {
+        width: calc(100% / 9);
+        padding-top: calc(100% / 9);
+        background-color: aqua;
+        border: 3px solid white;
+    }
+
+    .flex-sociais .img-social:nth-of-type(1n+7) {
+        display: block;
+    }    
 }
