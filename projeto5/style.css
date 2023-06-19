@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 20px 2%;
+}
+
+.center {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header .nav-mobile .img-menu{
+    width: 30px;
+    height: 30px;
+    background-image: url(imagens/icon_menu.png);
+    background-size: 100% 100%;
+}
+
+.container-header .nav-desktop {
+    display: none;
+} 
+
+main {
+    width: 100%;
+}
+
+main .container-banner {
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    background-image: url(imagens/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+
+/* .container-banner .center {
+    text-align: center;
+} */
+
+.container-banner .text-banner {
+    max-width: 300px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    color: white;
+}
+
+.text-banner p {
+    text-align: center; 
+    width: 100%;
+    height: 60px;
+    background-color: rgb(252, 53, 53);
+    margin-bottom: 20px;
+    line-height: 60px;
+    transform: skewX(-10deg);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.text-banner p:nth-of-type(1) {
+    transform: skewX(10deg);
+    font-style: italic;
+}
+
+.text-banner p:nth-of-type(2) {
+    max-width: 150px;
+
+}
+.text-banner p:nth-of-type(3) {
+    max-width: 150px;
+    transform: skewX(10deg);
+    font-style: italic;
+}
+.text-banner p:nth-of-type(4) {
+    background-color: white;
+    color: black;
+}
+
+.container-veiculos-destaque {
+    width: 100%;
+    padding: 60px 2%;
+}
+
+.container-veiculos-destaque .h2-veiculos-destaque {
+    text-align: center;
+}
+
+.h2-veiculos-destaque .linha-destaque {
+    max-width: 1400px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+
+.h2-veiculos-destaque h2 {
+    background-color: white;
+    display: inline-block;
+    z-index: 1;
+    padding: 0px 10px;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.vitrine-veiculos-destaque {
+    max-width: 1400px;
+    padding: 60px 2%;
+}
+
+.vitrine-veiculos-destaque .vitrine{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.vitrine .img-vitrine {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.img-vitrine img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.description-veiculo-destaque {
+    text-align: center;
+}
+
+.description-veiculo-destaque h2 {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.description-veiculo-destaque p{
+    color: #353535;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.description-veiculo-destaque button {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    background-color: #eb2d2d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #b21e1e;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.container-servicos-depoimentos {
+    width: 100%;
+    color: white;
+}
+
+.container-servicos-depoimentos .servicos {
+    width: 100%;
+    background-color: #242424;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.servicos .text-servicos {
+    text-align: left;
+    display: inline-block;
+}
+
+.text-servicos h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.text-servicos ul {
+    margin-top: 20px;
+    list-style-position: inside;
+}
+
+.text-servicos button {
+    text-align: center;
+    line-height: 40px;
+    background-color: #EB2D2D;
+    border: 0;
+    border-bottom: 5px solid #B21E1E;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    width: 150px;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.container-servicos-depoimentos .depoimentos {
+    width: 100%;
+    background-color: #EB2D2D;
+    padding: 80px 2%;
+}
+
+.depoimentos .text-depoimentos {
+    max-width: 700px;
+}
+
+.text-depoimentos h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.text-depoimentos p:nth-of-type(1) {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text-depoimentos .img-seta-nome {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-seta-nome img {
+    cursor: pointer;
+}
+
+.seta img:nth-of-type(1) {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.img-seta-nome p {
+    color: #252525;
+}
+
+.container-contato {
+    width: 100%;
+    padding: 60px 2% 30px 3%;
+}
+
+.container-contato .title-contato {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-contato .linha-contato {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+
+.title-contato h2 {
+    background-color: white;
+    display: inline-block;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-style: italic;
+}
+
+.container-contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 60px;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+form textarea {
+    width: 100%;
+    margin-top: 30px;
+    resize: none;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+form .botao {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    background-color: #eb2d2d;
+    border-bottom: 5px solid #b21e1e;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+footer {
+    padding: 30px 2%;
+    background-color: #252525;
+}
+
+footer ul {
+   display: none;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+}
+
+
+@media  screen and (max-width: 274px) {
+    .img-logo img{
+        width: 50%;
+        max-width: 200px;
+        margin-right: 20px;
+    }
+
+    .text-banner p:nth-of-type(4) {
+        word-wrap: break-word;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+    .vitrine-veiculos-destaque {
+        display: flex;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .vitrine .img-vitrine {
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    .description-veiculo-destaque {
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-header .nav-mobile .img-menu {
+        display: none;
+    }
+
+    .container-header .nav-desktop {
+        display: block;
+        position: relative;
+        top: 15px;
+    }
+
+    .container-header .nav-desktop ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav-desktop ul li a{
+        color: black;
+        text-decoration: none;     
+        font-size: 23px;  
+        padding: 0px 30px; 
+        font-style: italic;
+    }
+
+    .container-banner .text-banner {
+        color: white;
+        width: 314px;
+        position: relative;
+        top: 80px;
+        margin: 0;
+        padding-left: 10px;
+    }
+    
+    .text-banner p {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;     
+    }
+    
+    .text-banner p:nth-of-type(1) {
+        position: relative;
+        left: 50px;
+        transform: skewX(-10deg);
+    }
+    
+    .text-banner p:nth-of-type(2) {
+        width: 70%;
+        position: relative;
+        left: 34px;
+    }
+    
+    .text-banner p:nth-of-type(3) {
+        width: 45%;
+        position: relative;
+        left: 17px;
+        transform: skewX(-10deg);
+    }
+
+    .container-servicos-depoimentos {
+        display: flex;
+    }
+
+    .servicos .text-servicos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-depoimentos p:nth-of-type(1) {
+        font-size: 22px;
+    }
+    
+    .input-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-flex input {
+        width: calc(50% - 10px);
+    }
+
+    footer .center {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer ul {
+        list-style-type: none;
+        display: flex;
+        gap: 40px;
+        font-size: 23px;  
+        font-style: italic;
+        color: white;
+    }
+}
+
